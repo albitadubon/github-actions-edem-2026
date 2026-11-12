@@ -3,13 +3,13 @@ on:
   workflow_dispatch: 
 jobs:
   say_hello:
-    name: "Let's greet the user!" 
+    name: "Lets greet the user!" 
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello there!"
       - uses: actions/checkout@v3
       - run: cat ./list.txt 
         name: display contents of list.txt
-      - run: echo "I am step 4!
+      - run: echo "I am step 4!"
 
 
